@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:wght@700&family=Work+Sans:wght@700&display=swap');
+
+/* common styles utilities */
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.btn-primary{
+    width: 120px;
+    height: 44px;
+    background: #FF900E;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+    border: none;
+    border-radius: 7px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+/* header styles */
+.header{
+    background: rgba(255, 144, 14, 0.1);
+}
+nav ul li{
+    list-style: none;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-around;
+    gap: 45px;
+}
+/* banner styles */
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.banner-title{
+    text-align: center;
+    width: 350px;
+    margin: 26px 516px 10px 542px;
+    font-weight: 700;
+    font-size: 40px;
+}
+.banner-subtitle{
+    font-weight: 10;
+    font-size: 12px;
+    color: #727272;
+    text-align: center;
+    margin: 0px 513px 10px 539px;
+}
+.banner-img{
+    border-radius: 8px;
+    margin: 0px 227px 45px 253px;
+    width: 1000px;
+}
+/* main styles */
+
+/* Team styles */
+
+.team-work{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 73px;
+    margin-top: 85px;
+    margin-bottom: 130px;
+}
+.team-pic{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 24px;
+    grid-column-gap: 24px;
+}
+.team-pic img{
+    width: 342px;
+    height: 342px;
+}
+.team-detail{
+    width: 537px;
+    height: 304px;
+    font-weight: 500;
+    font-size: 25px;
+}
+.team-detail p{
+    font-style: normal;
+    font-size: 12px;
+    color: #727272;
+}
+
+/* feature styles */
+
+.features{
+    width: 1440px;
+    height: 1059px;
+    display: flex;
+
+}
+.feature-title{
+    border: 5px solid #FF900E;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    padding-left: 21px;
+    font-weight: 700;
+    font-size: 45px;    
+}
+.feature-subtitle{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.feature-description{
+    width: 586px;
+    height: 171px;
+    background: white;
+    padding: 30px 42px 30px 30px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.feature-description-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+.feature-description-subtitle{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
