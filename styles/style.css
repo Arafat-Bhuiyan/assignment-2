@@ -269,3 +269,147 @@ nav ul li{
     align-items: center;
     margin-bottom: 200px;
 }
+@media screen and (max-width:688px) {
+    .nav-menu{
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        width: 100%;
+        padding-left: 0;
+        margin-top: 0;
+    }
+    .banner-title{
+        margin: 0 0 10px 0;
+    }
+    .banner-subtitle{
+        margin: 0 0 10px 0;
+    }
+    .btn-primary{
+        margin-bottom: 20px;
+    }
+    .banner-img{
+        margin: 0;
+        width: 100%;
+    }
+    .team-work{
+        margin: 0;
+        flex-direction: column-reverse;
+        gap: 0;
+        align-items: flex-start;
+    }
+    .team-detail{
+        width: 100%;
+        text-align: center;
+    }
+    .team-pic{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .features{
+        height: 1450px;
+        flex-direction: column;
+    }
+    .feature-detail{
+        width: 100%;
+        height: 880px;
+    }
+    .feature-description{
+        width: 100%;
+    }
+    .features img{
+        width: 100%;
+        height: 500px;
+    }
+    .experience{
+        top: 3613px;
+        width: 160px;
+        height: 95px;
+        left:15px;
+    }
+    .facts{
+        padding-left: 0;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .facts p{
+        width: 100%;
+        margin: 0;
+    }
+    .activities{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 35px;
+        margin-bottom: 50px;
+    }
+    .sponsor-title p{
+        width: 360px;
+        text-align: center;
+    }
+    .sponsor{
+        flex-wrap: wrap;
+        margin: 50px;
+        gap: 20px;
+    }
+    .footer-title{
+        text-align: center;
+        margin-bottom: 50px;
+        width: 280px;
+        height: 70px;
+    }
+}
+@media screen and (min-width:689px) and (max-width:992px) {
+    .nav-menu{
+        align-items: center;
+    }
+    .banner-subtitle{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+        width: 500px;
+    }
+    .banner-img{
+        margin-left: 121px;
+        margin-right: 121px;
+        margin-bottom: 45px;
+        width: 70%;
+    }
+    .team-work{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .team-detail{
+        height: 195px;
+    }
+    .features{
+        height: 1620px;
+        flex-wrap: wrap;
+    }
+    .feature-detail{
+        height: 585px;
+    }
+    .experience{
+        left: 110px;
+        top: 3255px;
+        width: 190px;
+        height: 110px;
+    }
+    .activities{
+        row-gap: 20px;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+    .sponsor{
+        flex-wrap: wrap;
+        width: 70%;
+        margin: 20px 0 50px 120px;
+    }
+    .sponsor img{
+        margin-bottom: 20px;
+    }
+    .footer-title{
+        width: 580px;
+        margin-bottom: 50px;
+        height: 60px;
+    }
+}
